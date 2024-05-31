@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B43517F2BAC6D5700BB13A4 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B43517E2BAC6D5700BB13A4 /* CounterView.swift */; };
+		4B4351812BAC777D00BB13A4 /* GroceryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4351802BAC777D00BB13A4 /* GroceryList.swift */; };
+		4B53CA222BAF408B00A27ED5 /* DarkRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53CA212BAF408B00A27ED5 /* DarkRoomView.swift */; };
 		4B6532EB2B78CF6000ABE754 /* HelloSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6532EA2B78CF6000ABE754 /* HelloSwiftUIApp.swift */; };
 		4B6532ED2B78CF6000ABE754 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6532EC2B78CF6000ABE754 /* ContentView.swift */; };
 		4B6532EF2B78CF6300ABE754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6532EE2B78CF6300ABE754 /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B43517E2BAC6D5700BB13A4 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		4B4351802BAC777D00BB13A4 /* GroceryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryList.swift; sourceTree = "<group>"; };
+		4B53CA212BAF408B00A27ED5 /* DarkRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkRoomView.swift; sourceTree = "<group>"; };
 		4B6532E72B78CF6000ABE754 /* HelloSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6532EA2B78CF6000ABE754 /* HelloSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIApp.swift; sourceTree = "<group>"; };
 		4B6532EC2B78CF6000ABE754 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +102,9 @@
 			children = (
 				4B6532EA2B78CF6000ABE754 /* HelloSwiftUIApp.swift */,
 				4B6532EC2B78CF6000ABE754 /* ContentView.swift */,
+				4B4351802BAC777D00BB13A4 /* GroceryList.swift */,
+				4B53CA212BAF408B00A27ED5 /* DarkRoomView.swift */,
+				4B43517E2BAC6D5700BB13A4 /* CounterView.swift */,
 				4B6532EE2B78CF6300ABE754 /* Assets.xcassets */,
 				4B6532F02B78CF6300ABE754 /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B53CA222BAF408B00A27ED5 /* DarkRoomView.swift in Sources */,
 				4B6532ED2B78CF6000ABE754 /* ContentView.swift in Sources */,
 				4B6532EB2B78CF6000ABE754 /* HelloSwiftUIApp.swift in Sources */,
+				4B43517F2BAC6D5700BB13A4 /* CounterView.swift in Sources */,
+				4B4351812BAC777D00BB13A4 /* GroceryList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
